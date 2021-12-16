@@ -1,0 +1,416 @@
+exports.menu = (prefix) => {
+let usep = "き⃟🌹"
+let caf = "⭔"
+let cafnay = "❑"
+return `┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+╭─⬣「 𝙄𝙉𝙁𝙊 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}sc*
+│ ${usep} *${prefix}donasi*
+│ ${usep} *${prefix}owner*
+└⬣
+╭─⬣「 𝙈𝘼𝙆𝙀𝙍 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}toimg* <reply.img> 
+│ ${usep} *${prefix}tomp3* <reply.vid>
+│ ${usep} *${prefix}sticker* <reply.img>
+└⬣
+╭─⬣「 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}antilink* <on/off>
+│ ${usep} *${prefix}antivirtext* <on/off>
+│ ${usep} *${prefix}delete* <reply.txt>
+│ ${usep} *${prefix}hidetag* <text>
+│ ${usep} *${prefix}tagall* <text>
+│ ${usep} *${prefix}linkgc* 
+│ ${usep} *${prefix}listadmin*
+│ ${usep} *${prefix}setdesc* <text>
+│ ${usep} *${prefix}group* <buka/tutup>
+│ ${usep} *${prefix}setname* <text>
+│ ${usep} *${prefix}listonline*
+│ ${usep} *${prefix}add* <62xxx>
+│ ${usep} *${prefix}kick* <@tag/reply>
+└⬣
+╭─⬣「 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}return* <kode>
+│ ${usep} *${prefix}setppbot* <reply.img>
+│ ${usep} *${prefix}join* <link>
+│ ${usep} *${prefix}setusep* <kode>
+│ ${usep} *${prefix}setprefix* [multi/nopref]
+│ ${usep} *${prefix}bcgc* <text>
+│ ${usep} *${prefix}bc* <text>
+│ ${usep} *${prefix}x* [kode]
+│ ${usep} *$ [command]*
+│ ${usep} *${prefix}setmenu
+└⬣
+╭─⬣「 𝙎𝙀𝘼𝙍𝘾𝙃 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}growstock* <text>
+│ ${usep} *${prefix}moddroid* <text>
+│ ${usep} *${prefix}kodepos* <text>
+│ ${usep} *${prefix}artikata* <text>
+│ ${usep} *${prefix}katabijak* <text>
+│ ${usep} *${prefix}grubwa* <text>
+│ ${usep} *${prefix}stalkyt* <text>
+│ ${usep} *${prefix}stalktt* <text>
+│ ${usep} *${prefix}pinterest* <text>
+└⬣
+╭─⬣「 𝙍𝘼𝙉𝘿𝙊𝙈 𝘼𝙉𝙄𝙈𝙀 」⬣
+│ ${usep} *${prefix}topmanga*
+│ ${usep} *${prefix}topanime* 
+│ ${usep} *${prefix}samehadaku* <text>
+│ ${usep} *${prefix}manga* 
+│ ${usep} *${prefix}smanga* <text>
+│ ${usep} *${prefix}konachan* <text>
+│ ${usep} *${prefix}neonime* 
+│ ${usep} *${prefix}malanime* 
+│ ${usep} *${prefix}anoboy* 
+└⬣
+╭─⬣「 𝙄𝙈𝘼𝙂𝙀 𝘼𝙉𝙄𝙈𝙀 」⬣
+│ ${usep} *${prefix}saitama*
+│ ${usep} *${prefix}gon*
+│ ${usep} *${prefix}killua*
+│ ${usep} *${prefix}kakashi*
+│ ${usep} *${prefix}tsunade*
+│ ${usep} *${prefix}orochimaru*
+│ ${usep} *${prefix}mitsuki*
+│ ${usep} *${prefix}sarada*
+│ ${usep} *${prefix}boruto*
+│ ${usep} *${prefix}sakura*
+│ ${usep} *${prefix}sasuke*
+│ ${usep} *${prefix}minato*
+│ ${usep} *${prefix}naruto*
+│ ${usep} *${prefix}copper*
+│ ${usep} *${prefix}nami*
+│ ${usep} *${prefix}ussop*
+│ ${usep} *${prefix}sanji*
+│ ${usep} *${prefix}luffy*
+│ ${usep} *${prefix}zoro*
+│ ${usep} *${prefix}senku*
+│ ${usep} *${prefix}nezuko*
+│ ${usep} *${prefix}tanjirou*
+│ ${usep} *${prefix}natsu*
+│ ${usep} *${prefix}sagiri*
+│ ${usep} *${prefix}rimuru*
+└⬣
+╭─⬣「 𝙍𝘼𝙉𝘿𝙊𝙈 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}motivasi*
+│ ${usep} *${prefix}fakta*
+│ ${usep} *${prefix}bucin*
+│ ${usep} *${prefix}pantun*
+│ ${usep} *${prefix}darkjokes*
+│ ${usep} *${prefix}loli*
+│ ${usep} *${prefix}waifu*
+│ ${usep} *${prefix}husbu*
+│ ${usep} *${prefix}shota*
+│ ${usep} *${prefix}neko*
+│ ${usep} *${prefix}kemono*
+│ ${usep} *${prefix}wallanime*
+└⬣
+╭─⬣「 𝙉𝙎𝙁𝙒」⬣
+│ ${usep} *${prefix}neko-nsfw*
+│ ${usep} *${prefix}blowjob-nsfw*
+│ ${usep} *${prefix}kemonomimi-nsfw*
+│ ${usep} *${prefix}kitsune-nsfw*
+│ ${usep} *${prefix}yuri-nsfw*
+│ ${usep} *${prefix}boobs-nsfw*
+│ ${usep} *${prefix}kuni-nsfw*
+│ ${usep} *${prefix}nhentaipdf*
+└⬣
+╭─⬣「 𝘼𝙐𝘿𝙄𝙊 *#1* 」⬣
+│ ${usep} *${prefix}audio1*
+│ ${usep} *${prefix}audio2*
+│ ${usep} *${prefix}audio3*
+│ ${usep} *${prefix}audio4*
+│ ${usep} *${prefix}audio5*
+│ ${usep} *${prefix}audio6*
+│ ${usep} *${prefix}audio7*
+│ ${usep} *${prefix}audio8*
+│ ${usep} *${prefix}audio9*
+│ ${usep} *${prefix}audio10*
+│ ${usep} *${prefix}audio11*
+│ ${usep} *${prefix}audio12*
+│ ${usep} *${prefix}audio13*
+│ ${usep} *${prefix}audio14*
+│ ${usep} *${prefix}audio15*
+│ ${usep} *${prefix}audio16*
+│ ${usep} *${prefix}audio17*
+│ ${usep} *${prefix}audio18*
+│ ${usep} *${prefix}audio19*
+└⬣
+╭─⬣「 𝘼𝙐𝘿𝙄𝙊  *#2* 」⬣
+│ ${usep} *${prefix}audio20* 
+│ ${usep} *${prefix}audio21*
+│ ${usep} *${prefix}audio22*
+│ ${usep} *${prefix}audio23*
+│ ${usep} *${prefix}audio24*
+│ ${usep} *${prefix}audio25*
+│ ${usep} *${prefix}audio26*
+│ ${usep} *${prefix}audio27*
+│ ${usep} *${prefix}audio28*
+│ ${usep} *${prefix}audio29*
+│ ${usep} *${prefix}audio30*
+│ ${usep} *${prefix}audio31*
+│ ${usep} *${prefix}audio32*
+│ ${usep} *${prefix}audio33*
+│ ${usep} *${prefix}audio34*
+│ ${usep} *${prefix}audio35*
+└⬣
+╭─⬣「 𝙂𝙐𝙍𝘼 *#1* 」
+│ │ ${usep} *${prefix}gura1*
+│ ${usep} *${prefix}gura2*
+│ ${usep} *${prefix}gura3*
+│ ${usep} *${prefix}gura4*
+│ ${usep} *${prefix}gura5*
+│ ${usep} *${prefix}gura6*
+│ ${usep} *${prefix}gura7*
+│ ${usep} *${prefix}gura8*
+│ ${usep} *${prefix}gura9*
+│ ${usep} *${prefix}gura10*
+│ ${usep} *${prefix}gura11*
+│ ${usep} *${prefix}gura12*
+│ ${usep} *${prefix}gura13*
+│ ${usep} *${prefix}gura14*
+│ ${usep} *${prefix}gura15*
+│ ${usep} *${prefix}gura16*
+│ ${usep} *${prefix}gura17*
+│ ${usep} *${prefix}gura18*
+│ ${usep} *${prefix}gura19*
+│ ${usep} *${prefix}gura20* 
+└⬣
+╭─⬣「 𝙂𝙐𝙍𝘼 *#2* 」⬣
+│ ${usep} *${prefix}gura21*
+│ ${usep} *${prefix}gura22*
+│ ${usep} *${prefix}gura23*
+│ ${usep} *${prefix}gura24*
+│ ${usep} *${prefix}gura25*
+│ ${usep} *${prefix}gura26*
+│ ${usep} *${prefix}gura27*
+│ ${usep} *${prefix}gura28*
+│ ${usep} *${prefix}gura29*
+│ ${usep} *${prefix}gura30*
+│ ${usep} *${prefix}gura31*
+│ ${usep} *${prefix}gura32*
+│ ${usep} *${prefix}gura33*
+│ ${usep} *${prefix}gura34*
+│ ${usep} *${prefix}gura35*
+│ ${usep} *${prefix}gura36*
+│ ${usep} *${prefix}gura37*
+│ ${usep} *${prefix}gura38*
+│ ${usep} *${prefix}gura39*
+│ ${usep} *${prefix}gura40*
+└⬣
+╭─⬣「 𝙂𝙐𝙍𝘼 *#3* 」⬣
+│ ${usep} *${prefix}gura41*
+│ ${usep} *${prefix}gura42*
+│ ${usep} *${prefix}gura43*
+│ ${usep} *${prefix}gura44*
+│ ${usep} *${prefix}gura45*
+│ ${usep} *${prefix}gura46*
+│ ${usep} *${prefix}gura47*
+│ ${usep} *${prefix}gura48*
+│ ${usep} *${prefix}gura49*
+│ ${usep} *${prefix}gura50*
+│ ${usep} *${prefix}gura51*
+│ ${usep} *${prefix}gura52*
+│ ${usep} *${prefix}gura53*
+│ ${usep} *${prefix}gura54*
+└⬣
+╭─⬣「 𝙑𝘾𝘼𝙍𝘿𝙍𝘼𝙉𝘿𝙊𝙈 」⬣
+│ ${usep} *${prefix}vsadboy*
+│ ${usep} *${prefix}vpakboy*
+│ ${usep} *${prefix}vbaik*
+│ ${usep} *${prefix}vjago*
+│ ${usep} *${prefix}vjelek*
+│ ${usep} *${prefix}vcantik*
+│ ${usep} *${prefix}vpinter*
+│ ${usep} *${prefix}vbeban*
+│ ${usep} *${prefix}vkontol*
+│ ${usep} *${prefix}vhebat*
+│ ${usep} *${prefix}vwibu*
+│ ${usep} *${prefix}vharam*
+│ ${usep} *${prefix}vbabi*
+│ ${usep} *${prefix}vbego*
+│ ${usep} *${prefix}vganteng*
+│ ${usep} *${prefix}vanjing*
+│ ${usep} *${prefix}vmonyet*
+│ ${usep} *${prefix}vsadgirl*
+│ ${usep} *${prefix}vpakgirl*
+│ ${usep} *${prefix}vjahat*
+│ ${usep} *${prefix}vnolep*
+│ ${usep} *${prefix}vgoblok*
+└⬣
+╭─⬣「 𝙎𝙏𝙄𝘾𝙆𝙏𝘼𝙂𝙍𝘼𝙉𝘿𝙊𝙈 」⬣
+│ ${usep} *${prefix}zsadboy*
+│ ${usep} *${prefix}zpakboy*
+│ ${usep} *${prefix}zbaik*
+│ ${usep} *${prefix}zjago*
+│ ${usep} *${prefix}zjelek*
+│ ${usep} *${prefix}zcantik*
+│ ${usep} *${prefix}zpinter*
+│ ${usep} *${prefix}zbeban*
+│ ${usep} *${prefix}zkontol*
+│ ${usep} *${prefix}zhebat*
+│ ${usep} *${prefix}zwibu*
+│ ${usep} *${prefix}zharam*
+│ ${usep} *${prefix}zbabi*
+│ ${usep} *${prefix}zbego*
+│ ${usep} *${prefix}zganteng*
+│ ${usep} *${prefix}zanjing*
+│ ${usep} *${prefix}zmonyet*
+│ ${usep} *${prefix}zsadgirl*
+│ ${usep} *${prefix}zpakgirl*
+│ ${usep} *${prefix}zjahat*
+│ ${usep} *${prefix}znolep*
+│ ${usep} *${prefix}zgoblok*
+└⬣
+╭─⬣「 𝙏𝘼𝙂𝙍𝘼𝙉𝘿𝙊𝙈 」⬣
+│ ${usep} *${prefix}sadboy*
+│ ${usep} *${prefix}pakboy*
+│ ${usep} *${prefix}baik*
+│ ${usep} *${prefix}jago*
+│ ${usep} *${prefix}jelek*
+│ ${usep} *${prefix}cantik*
+│ ${usep} *${prefix}pinter*
+│ ${usep} *${prefix}beban*
+│ ${usep} *${prefix}kontol*
+│ ${usep} *${prefix}hebat*
+│ ${usep} *${prefix}wibu*
+│ ${usep} *${prefix}haram*
+│ ${usep} *${prefix}babi*
+│ ${usep} *${prefix}bego*
+│ ${usep} *${prefix}ganteng*
+│ ${usep} *${prefix}anjing*
+│ ${usep} *${prefix}monyet*
+│ ${usep} *${prefix}sadgirl*
+│ ${usep} *${prefix}pakgirl*
+│ ${usep} *${prefix}jahat*
+│ ${usep} *${prefix}nolep*
+│ ${usep} *${prefix}goblok*
+└⬣
+╭─⬣「 𝙍𝘼𝙏𝙀𝙍𝘼𝙉𝘿𝙊𝙈 」⬣
+│ ${usep} *${prefix}bapercek*
+│ ${usep} *${prefix}sangecek*
+│ ${usep} *${prefix}pakgirlcek*
+│ ${usep} *${prefix}pakboycek*
+│ ${usep} *${prefix}kontolcek*
+│ ${usep} *${prefix}haramcek*
+│ ${usep} *${prefix}anjingcek*
+│ ${usep} *${prefix}jahatcek*
+│ ${usep} *${prefix}baikcek*
+│ ${usep} *${prefix}bebancek*
+│ ${usep} *${prefix}babicek*
+│ ${usep} *${prefix}nolepcek*
+│ ${usep} *${prefix}jagocek*
+│ ${usep} *${prefix}pintarcek*
+│ ${usep} *${prefix}begocek*
+│ ${usep} *${prefix}goblokcek*
+│ ${usep} *${prefix}jelekcek*
+│ ${usep} *${prefix}cantikcek*
+│ ${usep} *${prefix}gantengcek*
+└⬣
+╭─⬣「 𝙏𝙀𝙓𝙏𝙋𝙍𝙊 *#1* 」⬣
+│ ${usep} *${prefix}glossy-blue* <text>
+│ ${usep} *${prefix}deluxe-gold* <text>
+│ ${usep} *${prefix}glossy-carbon* <text>
+│ ${usep} *${prefix}xmas* <text>
+│ ${usep} *${prefix}blood* <text>
+│ ${usep} *${prefix}halloween* <text>
+│ ${usep} *${prefix}matrix* <text>
+│ ${usep} *${prefix}christmas* <text>
+│ ${usep} *${prefix}winter* <text>
+│ ${usep} *${prefix}sky* <text>
+│ ${usep} *${prefix}luxury* <text>
+│ ${usep} *${prefix}gradient* <text>
+│ ${usep} *${prefix}vintage* <text>
+│ ${usep} *${prefix}beach* <text>
+│ ${usep} *${prefix}sand-writing* <text>
+│ ${usep} *${prefix}sand-engraved* <text>
+│ ${usep} *${prefix}glue-text* <text>
+│ ${usep} *${prefix}summery-sand* <text>
+└⬣
+╭─⬣「 𝙏𝙀𝙓𝙏𝙋𝙍𝙊 *#2* 」⬣
+│ ${usep} *${prefix}blackpink* <text>
+│ ${usep} *${prefix}joker* <text>
+│ ${usep} *${prefix}wicker* <text>
+│ ${usep} *${prefix}leaves* <text>
+│ ${usep} *${prefix}firework* <text>
+│ ${usep} *${prefix}lava* <text>
+│ ${usep} *${prefix}skeleton* <text>
+│ ${usep} *${prefix}toxic* <text>
+│ ${usep} *${prefix}thunder* <text>
+│ ${usep} *${prefix}horror* <text>
+│ ${usep} *${prefix}dropwater* <text>
+│ ${usep} *${prefix}break-wall* <text>
+│ ${usep} *${prefix}metal-dark* <text>
+│ ${usep} *${prefix}neon-light* <text>
+│ ${usep} *${prefix}minion-text* <text>
+│ ${usep} *${prefix}1917-style* <text>
+│ ${usep} *${prefix}holographic-3d* <text>
+│ ${usep} *${prefix}metal-purple* <text>
+│ ${usep} *${prefix}deluxe-silver* <text>
+└⬣
+╭─⬣「 𝙏𝘼𝙂𝙍𝘼𝙉𝘿𝙊𝙈 」⬣
+│ ${usep} *${prefix}xsadboy* <@tag>
+│ ${usep} *${prefix}xpakboy* <@tag>
+│ ${usep} *${prefix}xbaik* <@tag>
+│ ${usep} *${prefix}xjago* <@tag>
+│ ${usep} *${prefix}xjelek* <@tag>
+│ ${usep} *${prefix}xcantik* <@tag>
+│ ${usep} *${prefix}xpinter* <@tag>
+│ ${usep} *${prefix}xbeban* <@tag>
+│ ${usep} *${prefix}xkontol* <@tag>
+│ ${usep} *${prefix}xhebat* <@tag>
+│ ${usep} *${prefix}xwibu* <@tag>
+│ ${usep} *${prefix}xharam* <@tag>
+│ ${usep} *${prefix}xbabi* <@tag>
+│ ${usep} *${prefix}xbego* <@tag>
+│ ${usep} *${prefix}xganteng* <@tag>
+│ ${usep} *${prefix}xanjing* <@tag>
+│ ${usep} *${prefix}xmonyet* <@tag>
+│ ${usep} *${prefix}xsadgirl* <@tag>
+│ ${usep} *${prefix}xpakgirl* <@tag>
+│ ${usep} *${prefix}xjahat* <@tag>
+│ ${usep} *${prefix}xnolep* <@tag>
+│ ${usep} *${prefix}xgoblok* <@tag>
+└⬣
+╭─⬣「 𝙂𝘼𝙈𝙀𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}susunkata*
+│ ${usep} *${prefix}tebakkalimat*
+│ ${usep} *${prefix}tebakkata*
+│ ${usep} *${prefix}tebakkimia*
+│ ${usep} *${prefix}tebaklirik*
+│ ${usep} *${prefix}tebaktebakan*
+│ ${usep} *${prefix}asahotak*
+│ ${usep} *${prefix}caklontong*
+│ ${usep} *${prefix}siapaaku*
+└⬣
+╭─⬣「 𝘼𝙎𝙐𝙋𝘼𝙉 」⬣
+│ ${usep} *${prefix}asupantiktok*
+│ ${usep} *${prefix}asupancecan*
+│ ${usep} *${prefix}asupanhijab*
+│ ${usep} *${prefix}asupansantuy*
+│ ${usep} *${prefix}asupanukty*
+│ ${usep} *${prefix}asupanrika*
+│ ${usep} *${prefix}asupanghea*
+│ ${usep} *${prefix}asupanbocil*
+└⬣
+╭─⬣「 𝙈𝙀𝙂𝙐𝙈𝙄𝙉 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}megumin1*
+│ ${usep} *${prefix}megumin2*
+│ ${usep} *${prefix}megumin3*
+└⬣
+╭─⬣「 𝙈𝙀𝙈𝙀 𝙈𝙀𝙉𝙐 」⬣
+│ ${usep} *${prefix}meme1*
+│ ${usep} *${prefix}meme2*
+│ ${usep} *${prefix}meme3*
+│ ${usep} *${prefix}meme4*
+│ ${usep} *${prefix}darkjoke1*
+│ ${usep} *${prefix}darkjoke2*
+│ ${usep} *${prefix}darkjoke3*
+└⬣
+
+⬣「 𝙄𝙉𝙁𝙊 𝙇𝘼𝙄𝙉 」⬣
+${usep} Jika bot tidak merespon, mungkin bot sedang off
+${usep} bot tidak menyimpan riwayat foto/media
+${usep} Silahkan beri waktu 5 detik penggunaan per fitur agar tidak menyebabkan spam
+${usep} Jika menemukan bug/err silahkan hubungi owner
+${usep} This bot use libraily baileys multi-device
+`
+}
